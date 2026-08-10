@@ -1,0 +1,31 @@
+technical_accuracy,completeness,conciseness,hallucination_check,summary_overall_verdict
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+1.0,1.0,1.0,1.0,"The summary accurately captures the essence of the original ticket. It includes the customer's request for a follow-up regarding their recent order, without introducing any inaccuracies or missing critical information. The summary is also concise."
+,,,,
+,,,,
+,,,,
+1.0,1.0,1.0,1.0,"The summary accurately captures the key details of the original ticket, providing a concise and complete representation without introducing any inaccuracies or extraneous details."
+,,,,
+,,,,
+,,,,
+,,,,
+1.0,0.8,1.0,1.0,"The summary is technically accurate and concise, capturing the main issue about a follow-up on the previous complaint regarding headphones. However, it slightly lacks completeness by not mentioning the customer's difficulty in finding the original ticket number and the fact that nobody followed up. There are no hallucinations present."
+,,,,
+1.0,0.8,1.0,1.0,"The summary accurately captures the main issue with the order delay and the request for investigation. However, it omits the positive feedback the customer provided about their past experiences with the company, which affects completeness. Otherwise, the summary is concise and free of hallucinations."
+,,,,
+1.0,1.0,1.0,1.0,"The summary accurately captures the key issues of the original ticket, including the stock management failure, order cancellation, refund delay, and the failure to meet the stated SLA, all in a concise manner without introducing any inaccuracies or extraneous information."
+1.0,0.9,1.0,1.0,The summary is technically accurate and concise but slightly lacks completeness as it does not mention the customer's concern about the loud grinding noise and the potential danger of using the damaged blender.
+1.0,1.0,1.0,1.0,"The summary is highly accurate, complete, concise, and free from hallucinations."
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
