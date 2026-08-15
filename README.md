@@ -1,4 +1,4 @@
-# Agentic AI Foundation
+# Support-Ticket-Summarization-and-Response-Evaluation
 
 An introductory project for exploring agentic AI workflows, including support-ticket analysis, response generation, and evaluation of model outputs.
 
