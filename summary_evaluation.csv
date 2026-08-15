@@ -1,31 +1,315 @@
-technical_accuracy,completeness,conciseness,hallucination_check,summary_overall_verdict
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-1.0,1.0,1.0,1.0,"The summary accurately captures the essence of the original ticket. It includes the customer's request for a follow-up regarding their recent order, without introducing any inaccuracies or missing critical information. The summary is also concise."
-,,,,
-,,,,
-,,,,
-1.0,1.0,1.0,1.0,"The summary accurately captures the key details of the original ticket, providing a concise and complete representation without introducing any inaccuracies or extraneous details."
-,,,,
-,,,,
-,,,,
-,,,,
-1.0,0.8,1.0,1.0,"The summary is technically accurate and concise, capturing the main issue about a follow-up on the previous complaint regarding headphones. However, it slightly lacks completeness by not mentioning the customer's difficulty in finding the original ticket number and the fact that nobody followed up. There are no hallucinations present."
-,,,,
-1.0,0.8,1.0,1.0,"The summary accurately captures the main issue with the order delay and the request for investigation. However, it omits the positive feedback the customer provided about their past experiences with the company, which affects completeness. Otherwise, the summary is concise and free of hallucinations."
-,,,,
-1.0,1.0,1.0,1.0,"The summary accurately captures the key issues of the original ticket, including the stock management failure, order cancellation, refund delay, and the failure to meet the stated SLA, all in a concise manner without introducing any inaccuracies or extraneous information."
-1.0,0.9,1.0,1.0,The summary is technically accurate and concise but slightly lacks completeness as it does not mention the customer's concern about the loud grinding noise and the potential danger of using the damaged blender.
-1.0,1.0,1.0,1.0,"The summary is highly accurate, complete, concise, and free from hallucinations."
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
+technical_accuracy,completeness,conciseness,hallucination_check,summary_overall_verdict,evaluation_parse_status,raw_evaluation_output
+1.0,0.5,1,1,"The summary accurately captures the key issue of the wrong model being delivered and the request for a replacement. However, it omits significant elements of the customer's expressed dissatisfaction, such as their loyalty to ShopNest, the difficulty in reaching support, and the threat to file a complaint with the Better Business Bureau, affecting completeness.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.5,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures the key issue of the wrong model being delivered and the request for a replacement. However, it omits significant elements of the customer's expressed dissatisfaction, such as their loyalty to ShopNest, the difficulty in reaching support, and the threat to file a complaint with the Better Business Bureau, affecting completeness.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately captures all the key issues reported in the original ticket, omitting no significant details, and does not contain any additional or incorrect information. It is both concise and precise.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures all the key issues reported in the original ticket, omitting no significant details, and does not contain any additional or incorrect information. It is both concise and precise.""
+}
+```"
+1.0,1.0,1,1,The summary accurately reflects the original ticket's content in a concise manner without introducing any additional information or errors.,ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately reflects the original ticket's content in a concise manner without introducing any additional information or errors.""
+}
+```"
+1.0,0.8,1,1,"The summary is mostly accurate but lacks mention of past issues with delayed delivery, damaged product, and wrong item. It does capture the essence of the frustration and the immediate request, but some detail is omitted.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.8,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is mostly accurate but lacks mention of past issues with delayed delivery, damaged product, and wrong item. It does capture the essence of the frustration and the immediate request, but some detail is omitted.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately and concisely reflects the content of the original ticket, with no added or missing information.",ok,"{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately and concisely reflects the content of the original ticket, with no added or missing information.""
+}"
+1.0,0.8,1,1,"The summary accurately captures the key issue of the non-functional Dell laptop possibly having a hardware defect and the customer's desire for a return or refund. However, it slightly lacks completeness as it omits details about the order date uncertainty, the attempt to charge and use different chargers, the roommate's involvement, and the dent on the box. Therefore, it reflects most but not all nuances of the original ticket.",ok,"{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.8,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures the key issue of the non-functional Dell laptop possibly having a hardware defect and the customer's desire for a return or refund. However, it slightly lacks completeness as it omits details about the order date uncertainty, the attempt to charge and use different chargers, the roommate's involvement, and the dent on the box. Therefore, it reflects most but not all nuances of the original ticket.""
+}"
+1.0,0.5,1,1,The summary is technically accurate and concise but lacks completeness as it omits the customer's frustration with repeated wrong orders and criticism of the chatbot support.,ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.5,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is technically accurate and concise but lacks completeness as it omits the customer's frustration with repeated wrong orders and criticism of the chatbot support.""
+}
+```"
+1.0,0.5,1,1,The summary is technically accurate and concise but lacks completeness as it omits the customer's courteous tone and expression of understanding and appreciation.,ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.5,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is technically accurate and concise but lacks completeness as it omits the customer's courteous tone and expression of understanding and appreciation.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately reflects the original ticket, including the key details about the package's status and the customer's requests.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately reflects the original ticket, including the key details about the package's status and the customer's requests.""
+}
+```"
+1.0,0.7,1,1,"The summary is technically accurate and concise but omits key details regarding the customer's dissatisfaction with conflicting information and the steps they have taken, such as contacting the consumer protection office and maintaining records of interactions.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.7,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is technically accurate and concise but omits key details regarding the customer's dissatisfaction with conflicting information and the steps they have taken, such as contacting the consumer protection office and maintaining records of interactions.""
+}
+```"
+1.0,0.75,1,1,"The summary accurately captures the technical issue and the customer's request. However, it omits some details like attempts to resolve (incognito mode, clearing cache, testing on different browsers) and cuts off the transaction ID. These omissions affect completeness, as they provide additional context for troubleshooting.",ok,"{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.75,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures the technical issue and the customer's request. However, it omits some details like attempts to resolve (incognito mode, clearing cache, testing on different browsers) and cuts off the transaction ID. These omissions affect completeness, as they provide additional context for troubleshooting.""
+}"
+1.0,1.0,1,1,The summary accurately reflects the key concerns and details provided by the customer in the original ticket.,ok,"{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately reflects the key concerns and details provided by the customer in the original ticket.""
+}"
+1.0,1.0,1,1,The summary accurately captures all the key points of the original ticket without any additional information or errors.,ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures all the key points of the original ticket without any additional information or errors.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately reflects the main issues highlighted in the original ticket. It correctly identifies the missing charger, urgency for resolution, and the potential return of the product. The summary is complete, concise, and free from any added information not found in the original ticket.",ok,"{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately reflects the main issues highlighted in the original ticket. It correctly identifies the missing charger, urgency for resolution, and the potential return of the product. The summary is complete, concise, and free from any added information not found in the original ticket.""
+}"
+0.8,0.8,1,1,"The summary is technically accurate but omits critical emotional details and interactions, such as the customer's dissatisfaction with the support agents and their insistence on either receiving the phone immediately or getting a full refund. These omissions slightly reduce completeness and technical accuracy.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 0.8,
+    ""completeness"": 0.8,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is technically accurate but omits critical emotional details and interactions, such as the customer's dissatisfaction with the support agents and their insistence on either receiving the phone immediately or getting a full refund. These omissions slightly reduce completeness and technical accuracy.""
+}
+```"
+1.0,0.9,1,1,The summary is technically accurate and concise but slightly lacks completeness as it omits details such as the customer's preference to resolve matters quietly and the longer account history with the company.,ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.9,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is technically accurate and concise but slightly lacks completeness as it omits details such as the customer's preference to resolve matters quietly and the longer account history with the company.""
+}
+```"
+1.0,0.8,1,1,"The summary accurately captures the main points of the complaint being resubmitted due to lack of follow-up on an unresolved issue with headphones. However, it misses the detail about the customer being unable to find their ticket number.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.8,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures the main points of the complaint being resubmitted due to lack of follow-up on an unresolved issue with headphones. However, it misses the detail about the customer being unable to find their ticket number.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately captures all the key details of the original ticket, including the delay, condition of the food, lack of communication from the driver, and the request for a refund. It is concise and free from hallucinations.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures all the key details of the original ticket, including the delay, condition of the food, lack of communication from the driver, and the request for a refund. It is concise and free from hallucinations.""
+}
+```"
+1.0,0.7,1,1,"The summary is technically accurate and concise, capturing the main issue effectively. However, it lacks completeness as it omits the positive feedback and history of customer satisfaction, which provides context to the issue being flagged.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.7,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is technically accurate and concise, capturing the main issue effectively. However, it lacks completeness as it omits the positive feedback and history of customer satisfaction, which provides context to the issue being flagged.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately reflects the original ticket, capturing all key details without adding any incorrect information or unnecessary details.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately reflects the original ticket, capturing all key details without adding any incorrect information or unnecessary details.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately captures the main issues in the original ticket such as stock management error, order cancellation, the amount involved, and the refund exceeding the SLA. It concisely covers all the relevant details without adding any extraneous information or hallucinations.",ok,"{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures the main issues in the original ticket such as stock management error, order cancellation, the amount involved, and the refund exceeding the SLA. It concisely covers all the relevant details without adding any extraneous information or hallucinations.""
+}"
+1.0,0.9,1,1,"The summary is mostly accurate and concise, correctly capturing key details about the damaged items and the customer's request. However, it misses the customer's concern about the loud noise and potential risk, slightly impacting completeness.",ok,"{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.9,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is mostly accurate and concise, correctly capturing key details about the damaged items and the customer's request. However, it misses the customer's concern about the loud noise and potential risk, slightly impacting completeness.""
+}"
+1.0,1.0,1,1,"The summary accurately reflects the original ticket with complete details, maintaining conciseness, and no hallucinations are present.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately reflects the original ticket with complete details, maintaining conciseness, and no hallucinations are present.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately reflects the customer's request for a delivery or refund, captures the 8-day delay, and conflicting information from support. It omits the emotional tone and mention of legal actions but does not hallucinate, remaining concise and technically accurate for support handling.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately reflects the customer's request for a delivery or refund, captures the 8-day delay, and conflicting information from support. It omits the emotional tone and mention of legal actions but does not hallucinate, remaining concise and technically accurate for support handling.""
+}
+```"
+1.0,0.9,1,1,"The summary is mostly accurate and concise, but it omits the reason why the customer urgently needs the freezer. However, all necessary actions requested by the customer are correctly included.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.9,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary is mostly accurate and concise, but it omits the reason why the customer urgently needs the freezer. However, all necessary actions requested by the customer are correctly included.""
+}
+```"
+1.0,1.0,1,1,The summary accurately reflects the customer's inquiry regarding the status of their order and includes all necessary details without adding any false information or unnecessary content.,ok,"{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately reflects the customer's inquiry regarding the status of their order and includes all necessary details without adding any false information or unnecessary content.""
+}"
+1.0,1.0,1,1,The summary accurately and concisely captures the customer's inquiry about the return window for electronics and is complete without any hallucinations.,ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately and concisely captures the customer's inquiry about the return window for electronics and is complete without any hallucinations.""
+}
+```"
+1.0,0.9,1,1,"The summary accurately captures the main issue regarding the discrepancy in the invoice versus checkout charge. However, it omits the customer's assurance that there is no rush in resolving this issue, which slightly affects the completeness score.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 0.9,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures the main issue regarding the discrepancy in the invoice versus checkout charge. However, it omits the customer's assurance that there is no rush in resolving this issue, which slightly affects the completeness score.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately captures the key details of the original ticket, including the request to update the apartment number for the specified order before it ships. It is both complete and concise, with no additional or missing information.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures the key details of the original ticket, including the request to update the apartment number for the specified order before it ships. It is both complete and concise, with no additional or missing information.""
+}
+```"
+1.0,1.0,1,1,"The summary accurately captures all essential details of the original ticket, including the order number, the timeline of shipment and delivery, and the customer's concern about the refund process. It is technically accurate, complete, concise, and contains no hallucinations.",ok,"```json
+{
+  ""scores"": {
+    ""technical_accuracy"": 1,
+    ""completeness"": 1,
+    ""conciseness"": 1,
+    ""hallucination_check"": 1
+  },
+  ""overall_verdict"": ""The summary accurately captures all essential details of the original ticket, including the order number, the timeline of shipment and delivery, and the customer's concern about the refund process. It is technically accurate, complete, concise, and contains no hallucinations.""
+}
+```"
